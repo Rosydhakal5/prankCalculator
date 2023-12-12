@@ -2,3 +2,22 @@ body {
     margin: 0;
     padding: 0;
   }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    background: linear-gradient(
+      rgba(255, 255, 0, 0.751),
+      rgba(0, 255, 106, 0.797)
+    );
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    /* z-index: -2; */
+  }
+  
